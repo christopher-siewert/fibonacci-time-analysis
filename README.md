@@ -64,7 +64,7 @@ The dynamic programming algorithm has a time complexity of O(n). The program con
 
 You can see this well when the times are graphed:
 
-![Dynamic n vs Time](img/dynamic.PNG)
+![Dynamic n vs Time](https://christopher-siewert.github.io/fibonacci-time-analysis/img/dynamic.PNG)
 
 The trendline has a very high R<sup>2</sup>, which indicates good fit and suggests my program scales linearly with n.
 
@@ -100,9 +100,9 @@ T(n+1) = O(2<sup>n</sup>)+ O(2<sup>n-1</sup>) + O(1) which is O(2<sup>n</sup>)
 
 You can see the exponential running time in the following graphs:
 
-![Recursive n vs Time](img/recursive.PNG)
+![Recursive n vs Time](https://christopher-siewert.github.io/fibonacci-time-analysis/img/recursive.PNG)
 
-![Recursive n (log scale) vs Time](img/recursive_log.PNG)
+![Recursive n (log scale) vs Time](https://christopher-siewert.github.io/fibonacci-time-analysis/img/recursive_log.PNG)
 
 The R<sup>2</sup> is also extremely high, suggesting the exponential function is a good fit and my program was highly accurate.
 
